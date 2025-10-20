@@ -1,0 +1,6 @@
+.body{
+    height: calc(80vh - 8px);
+    width: calc(85vw - 8px);
+    background-color: yellowgreen;
+    border: 4px solid black;
+}

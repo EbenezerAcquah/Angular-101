@@ -11,28 +11,11 @@
 
 }
 
-.sidebar{
-    height: calc(90vh - 8px);
-    width: calc(15vw - 4px);
-    background-color: blue;
-    border: 4px solid black;
-    border-right: none;
-}
 
-.body{
-    height: calc(80vh - 8px);
-    width: calc(85vw - 8px);
-    background-color: yellowgreen;
-    border: 4px solid black;
-}
 
-.footer{
-    height: calc(10vh - 4px);
-    width: calc(85vw - 8px);
-    background-color: brown;
-    border: 4px solid black;
-    border-top: none;
-}
+
+
+
 
 .main{
     display: flex;

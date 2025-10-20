@@ -1,0 +1,7 @@
+.sidebar{
+    height: calc(90vh - 8px);
+    width: calc(15vw - 4px);
+    background-color: blue;
+    border: 4px solid black;
+    border-right: none;
+}
