@@ -1,1 +1,41 @@
-<div class="body"></div>
+<!--
+<input type="number" #fnum>
+<input type="number" #snum>
+
+<button (click)="sum= addTwoNumbers(fnum.value,snum.value)">add</button>
+<button (click)="difference= subTwoNumbers(fnum.value, snum.value)">sub</button>
+<button (click)="division= subTwoNumbers(fnum.value, snum.value)">div</button>
+<button (click)="multiplication= subTwoNumbers(fnum.value, snum.value)">mult</button>
+
+<div>
+    add:{{sum}}
+</div>
+
+<div>
+    subtract: {{difference}}
+</div>
+
+<div>
+    divide: {{division}}
+</div>
+
+<div>
+    multiply: {{multiplication}}
+</div>
+-->
+
+<div class="container">
+    <input type="number" id = "input-age" placeholder="Enter your age here" #cusname>
+    
+    <h4>Do you have an invitation?</h4> <input type="checkbox" #chk>
+
+    <button (click)=" sum = addTwoNumbers(cusname.value)">Submit</button>
+
+    <div>
+       chk:{{chk.checked}}
+    </div>
+
+    <div>
+       Invitation Status: {{sum}}
+    </div>
+</div>
